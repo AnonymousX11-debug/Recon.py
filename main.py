@@ -105,7 +105,7 @@ if __name__ == '__main__':
             print(result)
             speak(result)
 
-        elif 'send a email' in query:
+        elif 'send an email' in query:
             try:
                 speak("What should i say?")
                 content = takeCommand()
